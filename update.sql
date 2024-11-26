@@ -1,3 +1,6 @@
+SET SQL_SAFE_UPDATES = 0;
+
+
 UPDATE customers
 SET email = 'ppicasso@gmail.com'
 WHERE customers.id = '001';
